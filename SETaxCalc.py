@@ -14,7 +14,7 @@ and miscellanous cost totals ready for 2018!
 
 FedSETax = .153
 FedIncTax1 = .1
-FecIncTax2 = .12
+FedIncTax2 = .12
 FedMileRate = .545
 GAIncTax = .06
 
@@ -25,7 +25,7 @@ MileEarned = float(input("How many miles were driven?"))
 MiscEarned = float(input("Please enter any other costs:"))
 
 # Compute routine
-# Add a if statement to findout if earns are over $9525
+# Add a if statement to findout if earns are over $9525 then use FedIncTax2
 TotalTax =  (WageEarned * FedSETax) + (WageEarned * FedIncTax1) + (WageEarned * GAIncTax)
 TotalMile = MileEarned * FedMileRate
 TotalDisc = TotalMile + MiscEarned
