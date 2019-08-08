@@ -9,7 +9,7 @@
 print ("""\
 Welcome to self employed tax rate calculator!
 Please have your miles driven, wages earned,
-and miscellanous cost totals ready for 2018!
+and miscellanous cost totals ready for current year!
 """)
 
 FedSETax = .153
